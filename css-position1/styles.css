@@ -3,6 +3,11 @@ body {
 }
 
 .container {
+  display:flex;
   background-color: bisque;
-  height: 20em; /* vh vw em rem */
+  height: 40em; /* vh vw em rem */
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin:1em;
 }

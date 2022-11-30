@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+ul {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100vw;
+    margin:2em;
+    flex-direction: row-reverse;
+}   
+
+li {
+    background-color: brown;
+    color: white;
+    width: 10em;
+    height: 10em;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#li3 {
+    align-self: flex-start;
+}
