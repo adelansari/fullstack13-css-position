@@ -5,7 +5,7 @@ body {
 .container {
   display:flex;
   background-color: bisque;
-  height: 40em; /* vh vw em rem */
+  height: 30em; /* vh vw em rem */
   width: fit-content;
   align-items: center;
   justify-content: center;
