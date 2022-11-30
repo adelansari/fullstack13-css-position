@@ -7,6 +7,8 @@ body {
 .container0 {
   display: flex;
   flex-direction: column-reverse;
+  width: 50%;
+  margin:auto;
 }
 .container1 {
   background-color: black;
@@ -14,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 4em 4em;
 }
 
 .container1 div:nth-child(1) {
@@ -35,8 +38,13 @@ body {
   width: 12em;
   transform: translateY(20%);
   margin: 0 auto;
+  overflow: hidden;
 }
 
-.container2 img {
-  width: 100%;
+.container1 > div {
+  width: fit-content;
+}
+
+.container1 > div > p {
+  font-size: 24px;
 }
