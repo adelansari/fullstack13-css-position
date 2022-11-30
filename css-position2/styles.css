@@ -4,6 +4,12 @@ body {
   background-color: white;
 }
 
+.container0 {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .container1 {
   background-color: black;
   padding: 3em;
@@ -11,18 +17,23 @@ body {
 
 .container1 :nth-child(1) {
   background-color: rgb(154, 244, 134);
+  width: fit-content;
 }
 
 .container1 :nth-child(2) {
   background-color: rgb(86, 213, 60);
+  width: fit-content;
 }
 
 .container1 :nth-child(3) {
   background-color: rgb(42, 144, 22);
+  width: fit-content;
 }
 
-.container2 {
+.container2 :nth-child(1) {
+  display: flex;
   background-image: url("avatar.png");
   height: 10em;
-  width: 10em;
+  width: 20em;
+  align-self: flex-end;
 }
