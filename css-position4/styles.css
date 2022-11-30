@@ -5,6 +5,7 @@ body {
 .grid {
   display: grid;
   gap: 10px;
+  width: 100%;
 }
 
 .grid > div:first-child {
@@ -12,20 +13,45 @@ body {
   background-color: purple;
 }
 
-.grid > div:nth-child(2){
+.grid > div:nth-child(2) {
   grid-area: 2/1/3/2;
-  background-color: orange;
+  background-color: rgb(255, 106, 0);
 }
-
-.grid > div:nth-child(3){
+.grid > div:nth-child(3) {
   grid-area: 1/2/3/4;
-  /* background-color: ; */
+  background-color: greenyellow;
 }
 
-.grid > div:nth-child(4){
+.grid > div:nth-child(4) {
   grid-area: 1/4/3/5;
+  background-color: blue;
 }
 
-.grid > div:nth-child(5){
+.grid > div:nth-child(5) {
   grid-area: 1/5/3/6;
+  background-color: rgb(255, 0, 230);
+}
+
+.tooltip {
+  display: none;
+}
+
+.diamond {
+  width: 20px;
+  height: 20px;
+  background-color: antiquewhite;
+  transform: rotate(45deg);
+  margin: 50% auto;
+}
+
+.diamond > p {
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
