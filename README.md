@@ -15,3 +15,6 @@ Followings are the result from all four exercises combined:
 <p align="center">
    <img src="f13-css_overview.jpg" alt="css-result-overview"/>
 </p>
+
+## Resources
+- [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
