@@ -41,7 +41,7 @@ body {
   height: 20px;
   background-color: antiquewhite;
   transform: rotate(45deg);
-  margin: 50% auto;
+  margin: 100% auto;
 }
 
 .diamond > p {
